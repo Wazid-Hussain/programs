@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 100%;
+	height: 100vh;
+	background: url('bg.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.box .form_box{
+	width: 400px;
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px;
+	border-left:3px solid #998714;
+	border-right:3px solid #998714;
+}
+.box .form_box form input{
+	width: 90%;
+	line-height: 35px;
+	margin: 0 20px 20px ;
+	padding: 5px;
+	border: none;
+	border-left: 2px solid #998714;
+	border-right: 2px solid #998714;
+	background: rgba(0,0,0,0.5);
+	color: #998714;
+	font-size: 20px;
+}
+.box .form_box form label{
+	color:#998714;
+	margin-left:20px;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.box .form_box form button{
+	    width: 90%;
+    margin: 20px;
+    line-height: 40px;
+    background: transparent;
+    border: none;
+	border-left:3px solid #998714;
+	border-right:3px solid #998714;
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+	border-bottom:1px solid rgba(255, 255, 255, 0.4);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.box .form_box form button:hover{	
+    background: #998714;
+    transition: .5s linear all;
+}
+.box .form_box form .alert{
+	color: red;
+	text-align: center;
+	font-size: 24px;
+}
+.box .form_box form p{
+	text-align: center;
+    color: #c7af15;
+}
+.box .form_box form p a{
+    color: #545423;
+    text-decoration: none;
+}
+.box .form_box form p a:hover{
+	color: #c7af15;
+}
+
+/*============================================================================================================
+					HOME PAGE STYLING
+=============================================================================================================*/
+
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background: url('homebg.jpg');
+	background-size: cover;
+	background-position: center center;
+
+}
+.main form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	background: rgba(0,0,2,0.3);
+}
+.main form button{
+    margin: 15px 50px;
+    line-height: 40px;
+    background: transparent;
+	border-left:3px solid #998714;
+	border-right:3px solid #998714;
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+	border-bottom:1px solid rgba(255, 255, 255, 0.4);
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 50px;
+
+}
+.main form button:hover{	
+    background: #998714;
+    transition: .5s linear all;
+}
+
+
+/*============================================================================================================
+					REGISTRATION PAGE STYLING
+=============================================================================================================*/
+
+
+
+.rgbox{
+	width: 100%;
+	height: 100vh;
+	background: url('bg.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.rgbox .rgform_box{
+	width: 400px;
+	position: absolute;
+	background: rgba(0,0,2,0.6);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px;
+	border-left:3px solid #998714;
+	border-right:3px solid #998714;
+}
+.rgbox .rgform_box form input{
+	width: 90%;
+	line-height: 35px;
+	margin: 0 20px 20px ;
+	padding: 5px;
+	border: none;
+	border-left: 2px solid #998714;
+	border-right: 2px solid #998714;
+	background: rgba(0,0,0,0.5);
+	color: #998714;
+	font-size: 20px;
+}
+.rgbox .rgform_box form label{
+	color:#998714;
+	margin-left:20px;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.rgbox .rgform_box form button{
+	    width: 90%;
+    margin: 20px;
+    line-height: 40px;
+    background: transparent;
+    border: none;
+	border-left:3px solid #998714;
+	border-right:3px solid #998714;
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+	border-bottom:1px solid rgba(255, 255, 255, 0.4);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.rgbox .rgform_box form button:hover{	
+    background: #998714;
+    transition: .5s linear all;
+}
+.rgbox .rgform_box form p{
+	text-align: center;
+    color: #c7af15;
+}
+.rgbox .rgform_box form p a{
+    color: #545423;
+    text-decoration: none;
+}
+.rgbox .rgform_box form p a:hover{
+	color: #c7af15;
+}
