@@ -6,10 +6,10 @@ Reversing an array ????
 
 echo "<b><u>Q:1 Write a Code to Reverse  the array ? </b></u><br>";
 
-	$num = array(1,2,3);
+	$num = array("mango", "apple", "Banana");
 	echo "<br>The Given Array is : ";
 	foreach ($num as $values) {
-		echo "$values";
+		echo " &nbsp;  &nbsp; $values &nbsp;  &nbsp; ";
 	}
 	
 echo "<br> ";
@@ -19,7 +19,7 @@ echo "<br> ";
 	echo "<br>This is Just a Reverse Printed Array : ";
 	for($i=count($num)-1; $i>=0; $i--){
 
-		echo "$num[$i]";
+		echo " &nbsp;  &nbsp; $num[$i] &nbsp;  &nbsp;  ";
 	}
 
 echo "<br> ";
@@ -37,7 +37,7 @@ echo "<br> ";
 
 	foreach ($temp_array as $values) {
 
-		echo "$values";
+		echo " &nbsp;  &nbsp; $values &nbsp;  &nbsp; ";
 	}
 	
 ?>

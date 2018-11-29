@@ -29,6 +29,9 @@
 		for ($j=0; $j < $size ; $j++) { 
 
 			$a *= $st[$i];
+			
+		echo $a;
+		echo "<br>";
 		}
 
 		$sum += $a;
